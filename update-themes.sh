@@ -81,8 +81,8 @@ declare -a values=('all_search_engines.xml' 'appmsg_colors.xml' 'arrays.xml' 'at
 
 declare -a core=('java' 'jni' 'tests' 'src')
 
-declare -a theme_packages=('Calculator' 'Calendar' 'CalendarWidget' 'Camera2' 'Contacts' 'ContactsCommon' 'DUI' 'Custom-Squash' 'DeskClock' 'Dialer' 'Gallery2'
-                           'Launcher3' 'Messaging' 'OmniSwitch' 'PhoneCommon' 'Settings' 'Stk')
+declare -a theme_packages=('Calculator' 'Calendar' 'Camera2' 'Contacts' 'ContactsCommon' 'DUI' 'CustomSquash' 'DeskClock' 'Dialer' 'Gallery2'
+                           'Launcher3' 'Messaging' 'PhoneCommon' 'Settings' 'Stk')
 
 declare -a extra=('java' '.idea' 'gradle' '.gitignore' 'build.gradle' 'gradlew' 'gradlew.bat' 'local.properties' 'proguard-rules.pro' 'proguard.flags')
 
