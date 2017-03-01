@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-WORKING_DIR=~/ctr
+WORKING_DIR=~/ctr8952
 
 function delete_useless () {
   declare -a array=($@)
@@ -148,7 +148,7 @@ mkdir LemonadeStore/themes-resources/frameworks
 echo "Copying all files to $WORKING_DIR/LemonadeStore/themes-resources"
 copy_all ${theme_packages[@]}
 cp -r $WORKING_DIR/frameworks/base/core $WORKING_DIR/frameworks/base/packages $WORKING_DIR/LemonadeStore/themes-resources/frameworks
-cd ~/ctr/LemonadeStore/themes-resources
+cd ~/ctr8952/LemonadeStore/themes-resources
 cd $WORKING_DIR/LemonadeStore/themes-resources/packages/apps/Dialer/InCallUI
 delete_useless ${res[@]}
 cd $WORKING_DIR/LemonadeStore/themes-resources
