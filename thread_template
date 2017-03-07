@@ -1,5 +1,5 @@
-[CENTER][IMG="Citrus"]http://i.imgur.com/8GE23Vj.png[/IMG]
-[/CENTER][CENTER][CODE]/* Disclaimer 
+[CENTER][IMG=""]http://i.imgur.com/8GE23Vj.png[/IMG]
+[CODE]/* Disclaimer 
 * I am not responsible for bricked devices, dead SD cards, thermonuclear war, 
 * or you getting fired because the alarm app failed. Please do some research 
 * if you have any concerns about features included in this ROM
@@ -9,60 +9,97 @@
 */[/CODE][/CENTER]
 
 [SIZE="5"][B]About Project:[/B][/SIZE]
-Citrus-CAF, unlike the name suggests, was initially based off CyanogenMod in the early days of its inception, we even had another name at that point. Later, taking into consideration feedbacks of the very first slew of testers and carefully studying the needs and demands of our users, we rebased the project to Code Aurora Sources, more commonly known as CAF. Time went by and Nougat released, and we decided that it was time, Citrus-CAF had to see the daylight. We rebased everything to the brand spanking Nougat. Realising the potential of CAF tags, and how each altered the device performance on different SoCs, we decided to keep our sources independent for each chipset on our GitHub. The Xiaomi Redmi Note 3 was the first device to get the full fledged taste of our Tangy Nougat. In the beginning, it was just two people behind , but in time, a lot of people joined us, each giving their own contribution.
+Citrus-CAF, unlike the name suggests, was initially based off CyanogenMod, in the early days of  Marshmallow, we even had another name at that point. Later, taking into consideration feedbacks of the very first slew of testers and carefully studying the needs and demands of our users, we rebased the project to Code Aurora Sources, more commonly known as CAF. Time went by and  Nougat released, and we decided that it was time, Citrus-CAF had to see the daylight. We rebased everything to the brank spanking Nougat released. Later we realized the true potential of CAF tags, how each of them altered the device performance on different SOCs. After a lot of thinking, we decided to keep different sources for difference SOCs in our git and hours of debugging later, the Xiaomi Redmi Note 3 was the first device to get a taste of our Tangy Nougat. In the beginning, it was just two people behind , but in time, a lot of people joined us, as each giving their own contibutions.
 
-Citrus-CAF was built to create a never-before combination of customization & performance, incorporating the features that our community expects.
+Citrus-CAF was built to create an amazing combination of customization, performance and most of the demanded features by our users, whereas we've Cardinal, to deliver minimal customizations, but the greatest stability!
 
-All our sources are publicly available on our GitHub. We have a Google+ Community, where you can do community stuff. (Just kidding, we got builds over there and a feature-wish bucket too :P) Thank You & Enjoy your stay and taste the Tanginess of our work.
+Meanwhile, all of our Tangy sources are publicly available on our Github. We also do own a Google+ Community, where you can.... uhm... you know, do  what all others do at forums and communities! (Just kidding, we got builds over there and a feature-wish bucket too :P) Hope you enjoy your stay and taste the Tanginess of our work!
 
 [SIZE="5"][B]Out of lemon, with love![/B][/SIZE]
-[COLOR="red"]NOTE: There's nothing like, "we've decided to keep the customizations minimum, so as to provide stock AOSP experience, but with necessary features", cause this isn't Cardinal. This is Citrus
+[COLOR="red"]NOTE: There's nothing like, "we've decided to keep the customizations minimum, so as to provide stock AOSP experience, but with necessary features", cause this isn't Cardinal. This is Citrus 
 [/COLOR]
 [B][SIZE="3"]**Custom Squash**[/SIZE][/B]
 
 [I][B]*QS and Status Bar tweaks*[/B]
-[/I]- Rounded, and other battery styles,
-- Battery percentage
+[/I]
+- Battery percentage 
+- Battery Styles [Including AOSPA Style]
+- Charging Symbol Near Charging Percentage [Flash Logo etc]
 - Show AM/PM toggle 
 - Time alignment
 - Battery LED (shows only if device supports)
 - Lights with screen on (only if device supports)
-- Play music QS tile
-- Caffeine Tile
+- Play music QS,NFC,Reboot and many extra tile
 - Moved SystemUI to Custom Squash
-- Added 4 tiles view
+- Quick Setting Customizations[Toggle for QS Tile Titles ,Control number of columns and rows,upto 8 QS Tiles]
 - Carrier label
 - Network traffic
-- Power Notification controls
-- Citrus logo on Status Bar
+- Power Notification controls [By Default]
+- Enable/Disable  logo on Status Bar
+- Ticker Style [KK Style Notifications]
+- Display Bluetooth battery status
+- Advanced Data, Bt, WiFi qs toggle
+- notification counter toggle
+- USB tether tile
+- QS Header image
+- Battery bar customisations
 
-[I][B]*UI Tweaks*[/B]
-[/I]- Expanded Desktop
-- Lockscreen items
+[I][B]*UI Tweaks*[/B][/I]
+- Expanded Desktop
 - Wake on Plug Toggle
-- Lockscreen torch
-- Enable/Disable haptic feedback for successful finger print authentication
+- less notification sound
+- Incresing ring 
+- Custom logos
+- Unlink notification and ringer volume
+- Qs Quick pull-down
+- Enabled night light
+- option to disable safe headsets
+volume
 - Screen Color Controls
-- Night Mode
+- Screenshot Type Toggle 
+- Custom Squash Summary Text 
+- System App Remover 
+- Google Assistant included by default [Needs Gapps ]
+
 
 [I][B]*Buttons*[/B]
 [/I]- DUI -Fling & Pulse
 - Navigation Smart Bar controls
-- Hardware key custom rebinding
+- Full  Hardware key custom rebinding
+- Disable HW Buttons and Backlight (Control Backlight as well)
 - Volume Rocker Wake
 - Volume keys Music Playback control
--Volume up for DND
+- Volume up for DND
 - Volume Down to exit DND
 - Show/Hide DND switch on volume panel
+- Enable multiwindow swipe up gesture 
+
+[I][B]*Lock Screen*[/B]
+- Lockscreen visualizer toggle
+- Double tap to sleep on lockscreen
+- Lockscreen media art toggle
+- Lockscreen Items
+- Lockscreen Charging Info 
+- FP Unlock at start 
+- Lockscreen torch
+- Enable/Disable haptic feedback for successful finger print authentication
+
+[I][B]*Misc*[/B]
+- Toast Icon 
+- Custom Summary
+- Clear All Fab
+- Memory Bar at recents 
+- One Handed Mode 
+
 
 [I][B]*Substratum*[/B]
 [/I]- Full substratum support.
 
 [SIZE="5"][B]Downloads[/B][/SIZE]
 
-[B]Download Citrus-CAF Official Builds:[/B] [URL="https://www.androidfilehost.com/?w=files&flid=128288"]https://www.androidfilehost.com/?w=files&flid=128288[/URL]
+[B]Download Citrus-CAF Official Builds:[/B] [URL]https://sourceforge.net/projects/citrus-caf/files/oneplus3_3T/[/URL]
 
-[B]Download Dynamic GAPPS from BeansTown106 AFH: [/B][URL="https://www.androidfilehost.com/?w=files&flid=124631"]https://www.androidfilehost.com/?w=files&flid=124631[/URL]
+[B]Download Dynamic GAPPS : [/B][URL]https://telegram.me/dynamic_gapps[/URL]
 
 [B]Download OpenGAPPS:[/B] [URL="https://opengapps.org"] https://opengapps.org[/URL]
 
@@ -78,50 +115,52 @@ Substratum
 PureNexusProject
 DirtyUnicorns
 AOSP-RRO
-[Mention=6684861]Joshwin Aranha[/mention]
-Miradutta
-Recenz
-
+AOSParadox
+ASOPA
+[Mention=5222216]Recenz[/mention]
 [B]Extreme apologies if we've missed out someone, please feel free to PM, in case we've forgotten to pin your name here!
 [/B]
 [/HIDE]
 [SIZE="5"][B]FAQs:[/B]
 [/SIZE]
+
 [B][COLOR="red"]Is this ROM based on AOSP or CM?[/COLOR][/B]
 It's actually based on CAF
 
-[B][COLOR="red"]Does this ROM have CMTE or Substratum?[/COLOR][/B]
-We're looking forward to implement CMTE, once its development is done! Until then, we've Substratum on board!
+[B][COLOR="red"]Does this ROM have CMTE or RRO-Layers?[/COLOR][/B]
+None, we've Substratum on board!
 
-[B][COLOR="red"]<some random app> is forceclosing on my device, what should I do?[/COLOR][/B]
-Report the issue with proper logs on our Google+ [URL="https://plus.google.com/communities/110928715574226998482"]Community[/URL]!
+[B][COLOR="red"] <some random app> is forceclosing on my device, what should I do?[/COLOR][/B]
+Report the issue with proper logs on our Google+ [URL="https://plus.google.com/communities/110928715574226998482"]Community.[/URL]!
 
-[B][COLOR="red"]Does this ROM have any audio controls like V4A?[/COLOR][/B]
-Nothing, ATM. But we're looking forward to it! Stay tuned.
+[B][COLOR="red"] How to take Logs ?[/COLOR][/B]
+This video should help you - https://youtu.be/-LfT5Rt3p70
 
 [B][COLOR="red"]I would like to suggest a feature for this ROM?[/COLOR][/B]
 Sure, post it under the "Feature Wish" section in our Google+ Community, though we're not planning on adding more features to this ROM, ATM. We'll certainly look into it.
 
 [B][COLOR="red"]Does the zip include SuperSU, or should I flash it separately?[/COLOR][/B]
-It is/will be included in the ROM
+Nup , user has to flash himself. 
 [B][COLOR="red"]
 So, you guys, a part of Cardinal?[/COLOR][/B]
 Aaah, yes! Yes we are! :)
 [B][COLOR="red"]
 So, I've this working build ready for an unsupported device. I would like to go official with it. What should I do?[/COLOR][/B]
-It's really simple, get us a few screenshots of everything working (especially The Wings). Contact [URL="http://telegram.me/rohitporoli"]Rohit Poroli[/URL]/[URL="http://telegram.me/Adarsh001"]Adarsh MR[/URL]
+Contact [URL="http://telegram.me/rohitporoli"]Rohit Poroli[/URL]/[URL="http://telegram.me/Adarsh001"]Adarsh MR[/URL]
 [B][COLOR="red"]
 So, how do I find out the latest updates, I mean, is there some kinda, a channel, apart from the Google+ Community?[/COLOR][/B]
 Oh yes, there is. Head to [URL="http://telegram.me/TheCitrusChannel"]@TheCitrusChannel[/URL] on  Telegram
 [SIZE="5"][B]Source Information:[/B][/SIZE]
 
-[B]Citrus-CAF on Github:[/B] [URL="https://github.com/Citrus-CAF"]https://github.com/Citrus-CAF[/URL]
+[B]Citrus-CAF on Github:[/B] [URL]https://github.com/Citrus-CAF[/URL]
 
-[B]Device tree:[/B]
+[B]Device tree:[/B] [URL]https://github.com/Citrus-Seeds/[/URL] 
 
-[B]Kernel source:[/B]
+[B]Kernel source:[/B] [URL]https://github.com/Citrus-Seeds/[/URL] 
 
-[B]Our Google+ Community:[/B] [URL="https://plus.google.com/communities/110928715574226998482"]https://plus.google.com/communities/110928715574226998482[/URL]
+[B]Our Google+ Community:[/B] [URL]https://plus.google.com/communities/110928715574226998482[/URL]
 
-[B]Our Telegram Channel:[B][URL="https://telegram.me/TheCitrusChannel"]https://telegram.me/TheCitrusChannel[/URL]
+[B]Our Telegram Channel:[/B][URL]https://telegram.me/TheCitrusChannel[/URL]
+
+[B]Our Telegram Group:[/B][URL] https://t.me/CitrusCAF[/URL]
 
