@@ -83,7 +83,7 @@ Meanwhile, all of our Tangy sources are publicly available on our Github. We als
 - Allow Home button when ringing 
 - Advanced Power Menu 
 
-[I][B]*Lock Screen*[/B]
+[I][B]*Lock Screen*[/B][/I]
 - Lockscreen visualizer toggle
 - Double tap to sleep on lockscreen
 - Lockscreen media art toggle
@@ -95,7 +95,7 @@ Meanwhile, all of our Tangy sources are publicly available on our Github. We als
 - Enable/Disable haptic feedback for successful finger print authentication
 - Display Music Visualizer 
 
-[I][B]*Misc*[/B]
+[I][B]*Misc*[/B][/I]
 - Enable/Disable SIM Cards [Device Specific]
 - Toast Icon 
 - App OPS
