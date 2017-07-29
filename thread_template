@@ -32,39 +32,46 @@ Meanwhile, all of our Tangy sources are publicly available on our Github. We als
 - Play music QS,NFC,Reboot and many extra tile
 - Moved SystemUI to Custom Squash
 - Quick Setting Customizations[Toggle for QS Tile Titles ,Control number of columns and rows,upto 8 QS Tiles]
-- Carrier label
+- Carrier label [Advanced]
 - Network traffic
 - Power Notification controls [By Default]
-- Enable/Disable  logo on Status Bar
+- Enable/Disable  Logo on Status Bar
 - Ticker Style [KK Style Notifications]
-- Display Bluetooth battery status
-- Advanced Data, Bt, WiFi qs toggle
-- notification counter toggle
-- USB tether tile
+- Display Bluetooth Battery status
+- Advanced Data, Bt, WiFi , Qs toggle
+- USB tether Tile
 - QS Header image
-- Battery bar customisations
+- Scrollable QQS Tiles 
+- Custom Header Included 
+- Weather Settings
+- Citrus-CAF Logo, Custom Icons (Sports,Gaming,DC etc..) with 3 Positions (left,right,center)
+- Statusbar Weather 
+- Notification Count
+- Battery Bar and Customizations
 
 [I][B]*UI Tweaks*[/B][/I]
 - Expanded Desktop
 - Wake on Plug Toggle
-- less notification sound
-- Incresing ring 
+- Volume Steps
+- Customize Other Sounds
+- Less Notification Sound
+- Increasing Ring 
 - Custom logos
-- Unlink notification and ringer volume
+- Unlink Notification and Ringer Volume
 - Qs Quick pull-down
-- Enabled night light
-- option to disable safe headsets
-volume
+- Enabled Night Light
+- Notification Lights and Customizations 
+- Option to Disable Safe Headsets volume
 - Screen Color Controls
 - Screenshot Type Toggle 
 - Custom Squash Summary Text 
-- System App Remover 
-- Google Assistant included by default [Needs Gapps ]
+- Google Assistant enabled by default [Needs Gapps ]
+- FP Unlock (Unlock Device with FP after Reboot)
+- New Ambient Stuff
+- SE Linux Mode Switch 
 
-
-[I][B]*Buttons*[/B]
-[/I]- DUI -Fling & Pulse
-- Navigation Smart Bar controls
+[I][B]*Buttons*[/B][/I]
+- DUI - Fling & Smartbar & Pulse
 - Full  Hardware key custom rebinding
 - Disable HW Buttons and Backlight (Control Backlight as well)
 - Volume Rocker Wake
@@ -72,7 +79,9 @@ volume
 - Volume up for DND
 - Volume Down to exit DND
 - Show/Hide DND switch on volume panel
-- Enable multiwindow swipe up gesture 
+- Force Volume key to control media volume 
+- Allow Home button when ringing 
+- Advanced Power Menu 
 
 [I][B]*Lock Screen*[/B]
 - Lockscreen visualizer toggle
@@ -82,15 +91,23 @@ volume
 - Lockscreen Charging Info 
 - FP Unlock at start 
 - Lockscreen torch
+- Lockscreen Shortcuts
 - Enable/Disable haptic feedback for successful finger print authentication
+- Display Music Visualizer 
 
 [I][B]*Misc*[/B]
+- Enable/Disable SIM Cards [Device Specific]
 - Toast Icon 
+- App OPS
 - Custom Summary
 - Clear All Fab
 - Memory Bar at recents 
 - One Handed Mode 
-
+- Three Finger Screenshot 
+- Scrolling Cache
+- Where to play Ringtones from
+- Added Citrus-CAF Wallpaper APP 
+- Omni Music FX
 
 [I][B]*Substratum*[/B]
 [/I]- Full substratum support.
