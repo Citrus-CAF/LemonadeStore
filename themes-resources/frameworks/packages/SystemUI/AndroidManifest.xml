@@ -116,6 +116,8 @@
     <uses-permission android:name="android.permission.TRUST_LISTENER" />
     <uses-permission android:name="android.permission.USE_FINGERPRINT" />
     <uses-permission android:name="android.permission.RESET_FINGERPRINT_LOCKOUT" />
+    <!-- OmniJaws -->
+    <uses-permission android:name="org.omnirom.omnijaws.READ_WEATHER" />
 
     <!-- Needed for WallpaperManager.clear in ImageWallpaper.updateWallpaperLocked -->
     <uses-permission android:name="android.permission.SET_WALLPAPER"/>
@@ -172,6 +174,11 @@
     <!-- shortcut manager -->
     <uses-permission android:name="android.permission.RESET_SHORTCUT_MANAGER_THROTTLING" />
 
+    <!-- used for subsidy lock broadcasts. -->
+    <permission android:name="com.codeaurora.permission.SUBSIDYLOCK"
+        android:protectionLevel="signatureOrSystem"/>
+    <uses-permission android:name="com.codeaurora.permission.SUBSIDYLOCK" />
+
     <!-- Sync tile -->
     <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
     <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
@@ -186,6 +193,15 @@
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
     <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
+
+    <protected-broadcast android:name="action_handler_show_power_menu" />
+    <protected-broadcast android:name="action_handler_toggle_screenrecord" />
+    <protected-broadcast android:name="action_handler_screenshot" />
+    <protected-broadcast android:name="action_handler_region_screenshot" />
+    <protected-broadcast android:name="action_handler_toggle_flashlight" />
+
+    <!-- OmniJaws -->
+    <uses-permission android:name="org.omnirom.omnijaws.READ_WEATHER" />
 
     <application
         android:name=".SystemUIApplication"
@@ -248,12 +264,30 @@
                 android:permission="android.permission.BIND_WALLPAPER"
                 android:exported="true" />
 
+        <activity android:name=".custom.LockscreenShortcutsActivity"
+                  android:icon="@drawable/tuner"
+                  android:label="@string/lockscreen_targets_message"
+                  android:theme="@android:style/Theme.Material.Settings"
+                  android:parentActivityName="com.citrus.settings.CustomSquash"
+                  android:exported="true">
+        </activity>
+
         <activity android:name=".tuner.TunerActivity"
                   android:icon="@drawable/tuner"
                   android:theme="@style/TunerSettings"
                   android:label="@string/statusbar_icons_blacklist"
                   android:process=":tuner"
                   android:parentActivityName="com.citrus.settings.tabs.StatusBar"
+                  android:exported="true">
+        </activity>
+
+        <activity android:name=".tuner.PNCActivity"
+                  android:enabled="true"
+                  android:icon="@drawable/tuner"
+                  android:theme="@style/TunerSettings"
+                  android:label="@string/systemui_tuner_pnc_title"
+                  android:parentActivityName="com.citrus.settings.CustomSquash"
+                  android:process=":tuner"
                   android:exported="true">
         </activity>
 
@@ -301,7 +335,7 @@
                   android:resumeWhilePausing="true"
                   android:screenOrientation="behind"
                   android:resizeableActivity="true"
-                  android:configChanges="orientation|screenSize|smallestScreenSize|screenLayout"
+                  android:configChanges="orientation|screenSize|smallestScreenSize|screenLayout|keyboard|keyboardHidden"
                   android:theme="@style/RecentsTheme.Wallpaper">
             <intent-filter>
                 <action android:name="com.android.systemui.recents.TOGGLE_RECENTS" />

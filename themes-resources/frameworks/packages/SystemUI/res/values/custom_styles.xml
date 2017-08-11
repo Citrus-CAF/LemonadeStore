@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--  Copyright (C) 2014-2016 AICP
-      Copyright (C) 2014-2017 The Dirty Unicorns Project
   This program is free software: you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
   the Free Software Foundation, either version 3 of the License, or
@@ -32,13 +31,6 @@
         <item name="android:shadowRadius">4</item>
     </style>
 
-    <!-- Custom Carrier Label -->
-    <style name="TextAppearance.StatusBar.CarrierLabel" parent="@*android:style/TextAppearance.StatusBar.Icon">
-        <item name="android:textSize">@dimen/status_bar_carrier_height</item>
-        <item name="android:textStyle">normal</item>
-        <item name="android:textColor">@color/status_bar_carrier_color</item>
-    </style>
-
    <!-- Ticker Text -->
     <style name="TextAppearance.StatusBar.PhoneTicker"
         parent="@*android:style/TextAppearance.StatusBar.Ticker">
@@ -56,15 +48,29 @@
     <!-- Battery meter drawable styles -->
     <style name="BatteryMeterViewDrawable.Portrait"/>
     <style name="BatteryMeterViewDrawable.Landscape"/>
+    <style name="BatteryMeterViewDrawable.Solid"/>
     <style name="BatteryMeterViewDrawable.Circle">
         <item name="blendMode">overlay</item>
     </style>
-    <style name="BatteryMeterViewDrawable.Solid"/>
-    
-    <!-- Switch bar text appearance -->
-    <style name="TextAppearance.SwitchBar" parent="@android:style/TextAppearance.Material.Title">
-        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+
+    <!-- OmniJaws -->
+    <style name="TextAppearance.StatusBar.Expanded.Weather">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffff</item>
     </style>
 
+    <style name="TextAppearance.StatusBar.Expanded.Weather.Detailed">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+  <style name="TextAppearance.StatusBar.CarrierLabel" parent="@*android:style/TextAppearance.StatusBar.Icon">
+      <!-- Note: must be dp to fit in status bar -->
+      <item name="android:textSize">14dp</item>
+      <item name="android:textStyle">normal</item>
+      <item name="android:textColor">@color/status_bar_clock_color</item>
+    </style>
 
 </resources>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--  Copyright (C) 2017 Citrus-CAF Project
+<!--  Copyright (C) 2014-2016 The Dirty Unicorns Project
 
   This program is free software: you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
@@ -16,9 +16,14 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- Clear-All recents FAB -->
+    <integer name="recents_animate_fab_enter_duration">225</integer>
+    <integer name="recents_animate_fab_enter_delay">275</integer>
+    <integer name="recents_animate_fab_exit_duration">125</integer>
+
     <!-- The default tiles to display in QuickSettings -->
     <string name="quick_settings_tiles_extra" translatable="false">
-        hotspot,inversion,saver,work,cast,night,screenshot,sync,music,ime,caffeine,navigation_bar,reboot,heads_up,usb_tether
+        hotspot,inversion,saver,work,cast,night,screenshot,sync,music,ime,caffeine,navigation_bar,reboot,heads_up,nfc,usb_tether,weather,hwkeys,sound,compass,adb_network,anbi
     </string>
 
 </resources>
